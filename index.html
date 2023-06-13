@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran</title>
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+</head>
+<body>
+    <div class="date">
+        <div class="time"></div>
+        <div class="date"></div>
+        <div class="hello">Good</div>
+    </div>
+
+
+    <div class="sperate"></div>
+    <div class="quran">
+        <div class="ayah"></div>
+        <div class="tafsir"></div>
+    </div>
+
+    <img class="icon open" src="setting.png"></img>
+    <div class="overlay"></div>
+    <div class="settings">
+        <div class="head">
+            <h3>Settings</h3>
+            <div class="close">&times;</div>
+        </div>
+        <div class="tabs">
+            <a class="tablink active" id="general">General</a>
+            <a class="tablink" id="theme">Theme</a>
+        </div>
+        <div class="tabcntent" id="general">
+            <label for="name">Name: </label>
+            <input type="text" id="name">
+        </div>
+
+        <div class="tabcntent" id="theme">
+            <div class="color" style="--clr:#000;"></div>
+            <div class="color" style="--clr:#ffffff;"></div>
+            <div class="color" style="--clr:#9ccfe7;"></div>
+            <div class="color" style="--clr:#ffffc2;"></div>
+            <div class="color" style="--clr:#8ebda2;"></div>
+            <div class="color" style="--clr:#f5a9cb;"></div>
+            <div class="color" style="--clr:#ffd0a7;"></div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
